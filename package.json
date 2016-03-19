@@ -1,0 +1,34 @@
+{
+  "name": "sails-hook-db-migrate",
+  "version": "0.1.0",
+  "description": "An initialization hook for sail-db-migrate",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cwarden/sails-hook-db-migrate.git"
+  },
+  "keywords": [
+    "sails",
+    "hook",
+    "db-migrate",
+    "initialization"
+  ],
+  "author": "Christian G. Warden <cwarden@xerus.org>",
+  "license": "Public Domain",
+  "bugs": {
+    "url": "https://github.com/cwarden/sails-hook-db-migrate/issues"
+  },
+  "sails": {
+    "isHook": true
+  },
+  "homepage": "https://github.com/cwarden/sails-hook-db-migrate",
+  "dependencies": {
+    "db-migrate": "0.10.0-beta.11",
+    "db-migrate-pg": "0.1.9",
+    "sails": "0.12.1",
+    "sails-db-migrate": "cwarden/sails-db-migrate.git#capture-output"
+  }
+}
